@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<head>
+		<title><![CDATA[Pay page.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+	
+	<body>
+		
+		<btn><![CDATA[Get it now]]></btn>
+		<add_links><![CDATA[Additional links]]></add_links>
+		<no_promo_at_this_time><![CDATA[There is no promotion at this time.]]></no_promo_at_this_time>
+		
+		<result>
+			<success><![CDATA[Thank you, %s, for your payment.]]>
+				<completed>
+				<![CDATA[
+				Congratulations, you have your own %s now.<br/>
+				<div style="margin-top:10px;"><a href="%s" class="typeB">Edit page now</a></div>
+				<div style="margin-top:10px;"><a href="%s" class="typeB">Help to edit page</a></div>
+				]]>
+					<subject><![CDATA[Transaction completed successfully.]]></subject>
+					<plain><![CDATA[Congratulations, you have your own %s now.
+Type this into the browser's address bar to edit your page:
+%s
+Type this into the browser's address bar to get help about page editing:
+%s]]></plain>
+				</completed>
+				<pending>
+				<![CDATA[
+				Transaction was initiated, but it is still pending.<br/>
+				Pending reason: %s.<br/>
+				You will be notified about transaction cut-off time and, if it will be successful, you will get access to your page automatically.<br/>
+				The page remains reserved for you till that time.
+				<div class="secondary" style="margin-top:10px;">It can take up 2-5 business days for different reasons.</div>
+				]]>
+					<subject><![CDATA[Transaction is pending.]]></subject>
+					<plain><![CDATA[Transaction was initiated, but is still pending.
+Pending reason: %s.
+You will be notified about transaction cut-off time and, if it will be successful, you will get access to your page automatically.
+The page remains reserved for you till that time.
+It can take up 2-5 business days for different reasons.]]></plain>
+				</pending>
+			</success>
+			<failure><![CDATA[Sorry, %s, but your payment has failed.]]>
+				<subject><![CDATA[Transaction has failed.]]></subject>
+				<xhtml>
+				<![CDATA[
+				The reason of operation failure is: %s.<br/>
+				Contact us for additional information:
+				<div style="margin-top:10px;"><a href="mailto:%s" class="typeB">%s</a></div>
+				]]>
+				</xhtml>
+				<plain>
+				<![CDATA[The reason of operation failure is: %s.
+Contact us for additional information:
+%s]]>
+				</plain>
+			</failure>
+		</result>
+		
+		<already_have><![CDATA[You can have only one page per account]]>
+			<tip><![CDATA[Nevertheless, if you want to obtain one more page, you need to create additional account.]]></tip>
+		</already_have>
+		
+		<ready><![CDATA[Are you ready to get one using %s?]]>
+			
+			<using>
+				<paypal><![CDATA[PayPal]]></paypal>
+				<webmoney><![CDATA[WebMoney]]></webmoney>
+			</using>
+			
+			<item_name><![CDATA['s page]]></item_name>
+			<amount><![CDATA[Amount]]>
+				<promo><![CDATA[Amount of money, you think the page costs]]></promo>
+			</amount>
+			
+			<selects>
+				<companies><![CDATA[Select company first]]></companies>
+				<models><![CDATA[Select model then]]>
+					<tip><![CDATA[Already reserved models are disabled.]]></tip>
+					<resrvd><![CDATA[Reserved]]></resrvd>
+				</models>
+			</selects>
+			
+			<order_model><![CDATA[Order model]]>
+				<question><![CDATA[Can't find model you are interested in?]]></question>
+				<tip><![CDATA[
+				Please, select the company and specify official model name.<br/>
+				Then, provide your car's image and configuration.
+				<div class="secondary" style="margin-bottom:10px;">
+				Some models with the same name can have different configuration.<br/>
+				And, of course, you could have tuning.
+				</div>
+				We'll validate that information and, if anything is ok,<br/>
+				we'll create the page, reserve it by you and let you know (via email) in 1-2 business days.
+				]]></tip>
+				<company><![CDATA[Select company]]></company>
+				<model><![CDATA[Enter model name]]></model>
+				<btn>
+					<send><![CDATA[Send request]]></send>
+					<close><![CDATA[Close window]]></close>
+				</btn>
+				<alerts>
+					<success><![CDATA[Request has been sent successfully]]></success>
+					<failure><![CDATA[Request hasn't been sent]]></failure>
+				</alerts>
+				<msg>
+					<subject><![CDATA[Model order at %s]]></subject>
+					<xhtml><![CDATA[
+					<div style="font-size:20px; font-weight:bold; color:red;">Thank you, %s, for your model-page order.</div>
+					Date of the order: %s.<br/>
+					We'll announce you (via email) about the order's status in 1-2 business days.<br/>
+					The configuration you provided is listed below:
+					]]></xhtml>
+					<plain><![CDATA[
+Thank you, %s, for your model-page order.
+Date of the order: %s.
+We'll announce you (via email) about the order's status in 1-2 business days.
+The configuration you provided is listed below:
+]]></plain>
+				</msg>
+			</order_model>
+			
+		</ready>
+		
+		<steps><![CDATA[Several steps for getting your own page!]]>
+			
+			<step class="signinLogin"><![CDATA[
+			First: sign in (you will became a member of MLC club)<br/>
+			or log in (that gives you access to the website community too).
+			]]></step>
+			
+			<step class="pre.act.link"><![CDATA[
+			Second: for your account activating follow the necessary link<br/>
+			you will receive by e-mail you listed in registration form.
+			]]></step>
+			
+			<step class="payBtn"><![CDATA[
+			Third: for buying selected car model page<br/>
+			come back to this page and click 'Pay' button.
+			]]></step>
+			
+		</steps>
+		
+	</body>
+	
+</root>

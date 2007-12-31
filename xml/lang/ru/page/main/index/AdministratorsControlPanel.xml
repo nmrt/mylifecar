@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<head>
+		<title><![CDATA[Контрольная панель администраторов.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+	
+	<body>
+		
+		<buttons>
+			<add><![CDATA[Добавить]]></add>
+			<edit><![CDATA[Редактировать]]></edit>
+			<delete><![CDATA[Удалить]]>
+				<confirm>
+					<company><![CDATA[Вы действительно хотите удалить компанию с id: %s?]]></company>
+					<model><![CDATA[Вы действительно хотите удалить модель с id: %s?]]></model>
+					<user><![CDATA[Вы действительно хотите удалить пользователя с id: %s?]]></user>
+					<rss_item><![CDATA[Вы действительно хотите удалить единицу rss с id: %s?]]></rss_item>
+					<ordered_model><![CDATA[Вы действительно хотите удалить заказанную модель с id: %s?]]></ordered_model>
+				</confirm>
+			</delete>
+			<company><![CDATA[Компания]]></company>
+			<companies><![CDATA[Компании]]></companies>
+			<model><![CDATA[Модель]]></model>
+			<models><![CDATA[Модели]]></models>
+			<users><![CDATA[Пользователи]]></users>
+			<rss><![CDATA[Rss]]></rss>
+			<rss_item><![CDATA[Единица rss]]></rss_item>
+			<ordered_models><![CDATA[Заказанные модели]]></ordered_models>
+			<ordered_model><![CDATA[Заказанная модель]]>
+				<accept><![CDATA[Принять]]>
+					<confirm><![CDATA[Вы действительно хотите принять заказ на модель с id: %s?]]></confirm>
+				</accept>
+				<decline><![CDATA[Отклонить]]>
+					<confirm><![CDATA[Вы действительно хотите отклонить заказ на модель с id: %s?]]></confirm>
+				</decline>
+			</ordered_model>
+		</buttons>
+		
+		<alerts>
+			<saved><![CDATA[Сохранено.]]></saved>
+			<deleted><![CDATA[Удалено.]]></deleted>
+			<not_saved><![CDATA[Не сохранено!]]></not_saved>
+			<not_deleted><![CDATA[Не удалено!]]></not_deleted>
+		</alerts>
+		
+		<form>
+			<desc><![CDATA[Описание]]></desc>
+		</form>
+		
+		<model_order>
+			<status>
+				<s0><![CDATA[Ожидает]]></s0>
+				<s1><![CDATA[Принято]]></s1>
+				<s2><![CDATA[Отклонено]]></s2>
+			</status>
+			<reports>
+				<timer><![CDATA[сек. до обновления]]>
+					<cancel><![CDATA[Отменить]]></cancel>
+				</timer>
+				<accept>
+					<success><![CDATA[Заказ на модель был успешно принят.]]></success>
+					<failure><![CDATA[Заказ на модель не был принят.]]></failure>
+				</accept>
+				<decline>
+					<success><![CDATA[Заказ на модель был успешно отклонен.]]></success>
+					<failure><![CDATA[Заказ на модель не был отклонен.]]></failure>
+				</decline>
+			</reports>
+			<msg>
+				<accept>
+					<subject><![CDATA[Заказ на модель был принят]]></subject>
+					<xhtml><![CDATA[
+					<div style="font-size:20px; font-weight:bold; color:red;">Поздравляем, %s, ваш заказ на модель '%s' был принят.</div>
+					Страница теперь зарезервирована за вами.<br/>
+					Вам необходимо заплатить за нее, чтобы получить доступ для редактирования.<br/>
+					Просто щелкните гиперссылку указанную ниже, чтобы продолжить.<br/>
+					<a href="%s" style="font-weight:bold; color:red;">Продолжить</a><br/>
+					(может быть вам будет необходимо войти, чтобы продолжить)
+					]]></xhtml>
+					<plain><![CDATA[
+Поздравляем, %s, ваш заказ на модель '%s' был принят.
+Страница теперь зарезервирована за вами.
+Вам необходимо заплатить за нее, чтобы получить доступ для редактирования.
+Просто скопируйте и вставьте гиперссылку указанную ниже в адресную строку браузера, чтобы продолжить.
+%s
+(может быть вам будет необходимо войти, чтобы продолжить)
+]]></plain>
+				</accept>
+				<decline>
+					<subject><![CDATA[Заказ на модель был отклонен]]></subject>
+					<xhtml><![CDATA[
+					<div style="font-size:20px; font-weight:bold; color:red;">Извините, %s, но ваш заказ на модель '%s' был отклонен.</div>
+					Возможной причиной может быть не верные данные, предоставленные вами.<br/>
+					<a href="mailto:%s">Свяжитесь с нами</a> для дополнительной информации.<br/>
+					]]></xhtml>
+					<plain><![CDATA[
+Извините, %s, но ваш заказ на модель '%s' был отклонен.
+Возможной причиной может быть не верные данные, предоставленные вами.
+Свяжитесь с нами (%s) для дополнительной информации.
+]]></plain>
+				</decline>
+			</msg>
+		</model_order>
+		
+	</body>
+	
+</root>

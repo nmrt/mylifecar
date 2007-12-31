@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<head>
+<title><![CDATA[@mylifecar.com]]></title>
+<description><![CDATA[ ]]></description>
+</head>
+
+<body>
+	
+	<head>
+		<title><![CDATA[
+		<span
+		style="color:#eee;">my</span><span
+		style="color:red;">life</span><span
+		style="color:#eee;">car</span><span
+		style="color:#ccc; font-size:50%;">.com</span>
+		]]></title>
+		<slogan><![CDATA[
+		<div
+			style=
+			"
+				margin: 0 0 4px 50px;
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 9px;
+				font-weight: bold;
+				color: #ccc;
+				line-height: 4px;
+				white-space: nowrap;
+			"
+		>Сообщество любителей автомобилей.</div>
+		]]></slogan>
+		<under_construction>В стадии разработки. Осталось %d дней(я).</under_construction>
+		<current_arrow><![CDATA[Ваша настоящая страница]]></current_arrow>
+	</head>
+	
+	<foot>
+		<show_welcome_window><![CDATA[Показать окно приветствия]]></show_welcome_window>
+		<contact_us><![CDATA[Связаться с нами]]></contact_us>
+	</foot>
+	
+	<alerts>
+		<access_denied><![CDATA[Доступ запрещен!]]></access_denied>
+		<admins_only><![CDATA[Только администраторы!]]></admins_only>
+		
+		<img_save>
+			<failure><![CDATA[Произошла ошибка!]]>
+				<tip><![CDATA[Пожалуйста, попробуйте опять.]]></tip>
+			</failure>
+			<too_big><![CDATA[Изображение через чур большое, даже для дискретизации.]]>
+				<tip><![CDATA[Уменьшите размер и/или разрешение изображения и попробуйте опять.]]></tip>
+			</too_big>
+		</img_save>
+		
+	</alerts>
+	
+	<path>
+		<index><![CDATA[Все компании]]></index>
+	</path>
+	
+	<data_block>
+		<view_status>
+			<collapsed><![CDATA[свернутый]]></collapsed>
+			<expanded><![CDATA[развернутый]]></expanded>
+		</view_status>
+		<click_to_expand><![CDATA[Щелкните, чтобы развернуть]]></click_to_expand>
+		<click_to_collapse><![CDATA[Щелкните, чтобы свернуть]]></click_to_collapse>
+	</data_block>
+	
+	<model>
+		<free><![CDATA[свободно]]></free>
+		<reserved><![CDATA[резр]]>
+			<full><![CDATA[зарезервировано]]></full>
+		</reserved>
+	</model>
+	
+	<ui>
+		<loading><![CDATA[Загрузка]]></loading>
+	</ui>
+	
+	<action100>
+	<![CDATA[
+	Первых <span style="font-size:x-large; font-weight:bold;">%s</span> (%s осталось) покупателей страницы 'Автомобиль вашей мечты'<br/>
+	определяют цену сами.
+	]]>
+		
+		<promotion><![CDATA[Акция!]]></promotion>
+		<btn><![CDATA[Воспользуйтесь шансом]]></btn>
+		
+		<add id="nLargestPrices"><![CDATA[
+		<span style="font-size:large; font-weight:bold;">%s</span> самых высоких предложенных цен будут вознаграждены.
+		]]></add>
+		
+	</action100>
+	
+</body>
+
+</root>

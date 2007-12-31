@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<model_feed><![CDATA[%s's feed]]></model_feed>
+	
+	<feeds><![CDATA[Rss feeds]]>
+		
+		<editor>
+			<title><![CDATA[Mylifecar.com editor's feed]]></title>
+			<desc><![CDATA[Latest news, events, announcements on mylifecar.com]]></desc>
+			<link><![CDATA[]]></link>
+		</editor>
+		
+		<companies>
+			<title><![CDATA[List of Companies on mylifecar.com]]></title>
+			<desc><![CDATA[Constantly updating list of automobile companies on mylifecar.com]]></desc>
+			<link><![CDATA[]]></link>
+		</companies>
+		
+	</feeds>
+	
+	<add_feeds>
+		
+		<model>
+			<title><![CDATA[%s on mylifecar.com feed]]></title>
+			<desc><![CDATA[Constantly updating events, comments, photos etc. for %s on mylifecar.com]]></desc>
+			<link><![CDATA[]]></link>
+		</model>
+		
+	</add_feeds>
+	
+</root>

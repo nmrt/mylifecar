@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<index><![CDATA[Компании]]></index>
+<!--<owners><![CDATA[Owners]]></owners>
+<about><![CDATA[About]]></about>
+<compare><![CDATA[Compare]]></compare>-->
+<user><![CDATA[Пользователь]]></user>
+<help><![CDATA[Помощь]]></help>
+
+</root>

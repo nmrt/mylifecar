@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<head>
+		<title><![CDATA[Страница помощи.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+	
+	<body>
+		
+		<topics><![CDATA[Темы помощи]]>
+			<glance><![CDATA[Mylifecar.com на первый взгляд]]></glance>
+			<page_editing><![CDATA[Обзор редактирования страницы-модели]]></page_editing>
+		</topics>
+		
+	</body>
+	
+</root>

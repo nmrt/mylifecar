@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<head>
+		<title><![CDATA[User page.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+	
+	<body>
+		<ui>
+			<panel><![CDATA[Control panel]]></panel>
+			<edit_page_btn><![CDATA[Edit page]]></edit_page_btn>
+			<acp_btn><![CDATA[Control panel]]></acp_btn>
+		</ui>
+	</body>
+	
+</root>

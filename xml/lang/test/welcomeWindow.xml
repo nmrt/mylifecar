@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<title><![CDATA[Welcome window]]></title>
+	<dont_show><![CDATA[Don't show this window any more]]></dont_show>
+	
+	<hello><![CDATA[Hello, everybody!]]></hello>
+	
+	<text><![CDATA[
+	You're visiting MyLifeCar.com. Domain name is telling the main theme of the website: it is for car fanciers.<br/>
+	If you want everyone know about your real car, or the car of your dreams, or your wife's car, even your friend's car &hellip; this website is definitely for you!<br/>
+	]]></text>
+	
+	<text2><![CDATA[
+	The concept is simple:
+	<ul>
+		<li>Number of model-pages on the website won't exceed number of car models produced since 1886.</li>
+		<li>One model-page can have only one owner.</li>
+	</ul>
+	]]></text2>
+	
+	<help><![CDATA[Visit our help section for more information]]></help>
+	<first_page><![CDATA[Visit our first model-page which has owner]]></first_page>
+	
+</root>
+

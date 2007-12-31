@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+#content .padding { padding-left: 0 !important; }
+
+.other-archives { margin-left: 20px; }
+.other-archives td.archives { padding-left: 5px; }
+
+/*
+//
+// core
+//
+*/
+.dataBlock .coreWhite .scroller
+{
+	/*height: 300px;
+	overflow-y: auto;*/
+}
+.dataBlock .coreWhite .padding { padding: 10px 0 0 0 !important; }
+.dataBlock .coreWhite .empty
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*
+//
+// news
+//
+*/
+#news .newsHead { /*cursor: pointer;*/ }
+#news .newsHead td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+#news .data td
+{
+	font-size: 75%;
+	font-weight: normal;
+}
+#news .source a { color: #666; }
+#news .archive a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+.window.newsManager form,
+.window.newsManager form td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.window.newsManager form .bodyTD { border-top: 2px solid #999; }
+#news .filter
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 10px 20px;
+}
+
+/*
+//
+// photos
+//
+*/
+#photos,
+#photos td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#photos .title { font-weight: bold; }
+#photos .archive a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+.window.photosManager form,
+.window.photosManager form td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.window.photosManager form .descTD { border-top: 2px solid #999; }
+
+/*
+//
+// people
+//
+*/
+#people .peopleHead td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+#people .archive a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+.window.peopleManager form,
+.window.peopleManager form td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.window.peopleManager form .descTD { border-top: 2px solid #999; }
+
+/*
+//
+// calendar
+//
+*/
+#calendar,
+#calendar td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*
+//
+// tech_info
+//
+*/
+#tech_info,
+#tech_info td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*
+//
+// owner_info
+//
+*/
+#owner_info,
+#owner_info td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.window.owner_infoExtended,
+.window.owner_infoExtended td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*
+//
+// conversation
+//
+*/
+#conversation .conversationHead { /*cursor: pointer;*/ }
+#conversation .conversationHead td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+#conversation .conversationHead .user
+{
+	font-weight: normal;
+	font-size: 9px;
+	color: #FF9900;
+}
+#conversation .conversationHead .mts
+{
+	font-weight: normal;
+	font-size: 9px;
+	color: #999;
+}
+#conversation .archive a { color: #666; }
+.window.conversationManager form,
+.window.conversationManager form td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.window.conversationManager form .descTD { border-top: 2px solid #999; }
+

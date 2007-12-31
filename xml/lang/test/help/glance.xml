@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<img>
+		<window_not_logged_in><![CDATA[Mylifecar.com's page without a user to log in]]></window_not_logged_in>
+		<basic_model_page><![CDATA[Basic model-page (after user logged in)]]></basic_model_page>
+	</img>
+	
+	<text>
+		<first><![CDATA[
+		Any mylifecar.com page consists of three main elements: head, body and foot.<br/>
+		Only body is scrollable.<br/>
+		Hyperlinks in the site can be of three styles (and/or combination of them):
+		<ul>
+			<li>Default link style is red (optional), bold and underlined text like <a href="#">this</a></li>
+			<li>Second link style is blue, bold text (with yellow background while mouse cursor is over) like <a href="#" class="typeB">this</a></li>
+			<li>And last link style is red (optional), bold and dashed underlined text (which means that this link won't open another page but execute some Javascript) like
+			<a href="javascript:void(null)" class="js" onclick="alert('Test link')">this</a></li>
+		</ul>
+		]]></first>
+		<window_not_logged_in><![CDATA[Take a closer look at mylifecar.com page's structure (when nobody is logged in):]]></window_not_logged_in>
+		<basic_model_page><![CDATA[It's how looks like basic model-page (after user logged in):]]></basic_model_page>
+		<the_end><![CDATA[That's all so far, we hope you'll enjoy our website!..]]></the_end>
+	</text>
+	
+</root>

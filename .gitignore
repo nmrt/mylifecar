@@ -1,0 +1,13 @@
+.DS_Store
+.vs/
+img/previews/
+img/users/
+mail/ftp.txt
+mail/imap.txt
+mail/mysql.txt
+php/script/ftp.conf.php
+php/script/mysql/conf.php
+php/script/paypal/btn.php
+php/script/webmoney/WebMoneyCA.crt
+php/script/webmoney/wm_config.php
+tmp/

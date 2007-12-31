@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<head>
+		<title><![CDATA[Company page.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+	
+	<body>
+		
+		<info>
+			
+			<head><![CDATA[Company information]]></head>
+			
+			<founded><![CDATA[Founded]]>
+				<date><![CDATA[Date]]></date>
+				<person><![CDATA[Person]]></person>
+			</founded>
+			
+			<headquarters><![CDATA[Headquarters]]>
+				<country><![CDATA[Country]]></country>
+				<province><![CDATA[Province]]></province>
+				<city><![CDATA[City]]></city>
+			</headquarters>
+			
+			<keypeople><![CDATA[Key people]]></keypeople>
+			<website><![CDATA[Website]]></website>
+			
+		</info>
+		
+		<models>
+			<head><![CDATA[Company models]]></head>
+			<name><![CDATA[Name]]></name>
+			<year><![CDATA[Year]]></year>
+			<owner><![CDATA[Owner]]></owner>
+		</models>
+		
+		<other_companies>
+			<head><![CDATA[Other companies]]></head>
+		</other_companies>
+		
+	</body>
+	
+</root>

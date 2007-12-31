@@ -1,0 +1,743 @@
+
+
+=======================
+xml/lang/en/browser.xml
+
+/empty_dir
+The directory is empty!
+
+
+====================
+xml/lang/en/menu.xml
+
+/index
+Companies
+
+/user
+User
+
+/help
+Help
+
+
+==========================
+xml/lang/en/page/index.xml
+
+/head/title
+@mylifecar.com
+
+/body/head/title
+<span
+		style="color:#eee;">my</span><span
+		style="color:red;">life</span><span
+		style="color:#eee;">car</span><span
+		style="color:#ccc; font-size:50%;">.com</span>
+
+/body/head/current_arrow
+current page
+
+/body/foot/show_welcome_window
+Show welcome window
+
+/body/foot/contact_us
+Contact us
+
+/body/alerts/access_denied
+Access denied!
+
+/body/alerts/admins_only
+Administrators only!
+
+/body/alerts/img_save/failure
+Failure occured!
+
+/body/alerts/img_save/failure/tip
+Please, try again.
+
+/body/path/index
+All companies
+
+/body/data_block/view_status/collapsed
+collapsed
+
+/body/data_block/view_status/expanded
+expanded
+
+/body/data_block/click_to_expand
+Click to expand
+
+/body/data_block/click_to_collapse
+Click to collapse
+
+/body/model/free
+free
+
+/body/model/reserved
+rsrv
+
+/body/ui/loading
+Loading
+
+/body/action100
+First <span style="font-size:x-large; font-weight:bold;">%s</span> (%s left) 'Car of your life' page buyers<br/>
+	determine the price themselves.
+
+/body/action100/promotion
+Promotion!
+
+/body/action100/btn
+Take a chance
+
+/body/action100/add
+<span style="font-size:large; font-weight:bold;">%s</span> largest provided by you prices will be rewarded.
+
+
+==========================================================
+xml/lang/en/page/main/index/AdministratorsControlPanel.xml
+
+/head/title
+Administrators' control panel.
+
+/body/buttons/add
+Add
+
+/body/buttons/edit
+Edit
+
+/body/buttons/delete
+Delete
+
+/body/buttons/delete/confirm/company
+Do you really want to delete this company?
+
+/body/buttons/delete/confirm/model
+Do you really want to delete this model?
+
+/body/buttons/delete/confirm/user
+Do you really want to delete this user?
+
+/body/buttons/delete/confirm/rss_item
+Do you really want to delete this rss item?
+
+/body/buttons/company
+Company
+
+/body/buttons/companies
+Companies
+
+/body/buttons/model
+Model
+
+/body/buttons/models
+Models
+
+/body/buttons/users
+Users
+
+/body/buttons/rss
+Rss
+
+/body/buttons/rss_item
+Rss item
+
+/body/alerts/saved
+Saved.
+
+/body/alerts/deleted
+Deleted.
+
+/body/alerts/not_saved
+Not saved!
+
+/body/alerts/not_deleted
+Not deleted!
+
+/body/form/desc
+Description
+
+
+=======================================
+xml/lang/en/page/main/index/company.xml
+
+/head/title
+Company page.
+
+/body/info/head
+Company information
+
+/body/info/founded
+Founded
+
+/body/info/founded/date
+Date
+
+/body/info/founded/person
+Person
+
+/body/info/headquarters
+Headquarters
+
+/body/info/headquarters/country
+Country
+
+/body/info/headquarters/province
+Province
+
+/body/info/headquarters/city
+City
+
+/body/info/keypeople
+Key people
+
+/body/info/website
+Website
+
+/body/models/head
+Company models
+
+/body/other_companies/head
+Other companies
+
+
+========================================
+xml/lang/en/page/main/index/error403.xml
+
+/head/title
+Access denied!
+
+/body/text
+<h1>Access denied!</h1>
+
+
+========================================
+xml/lang/en/page/main/index/error404.xml
+
+/head/title
+Sorry, there is no such page.
+
+/body/text
+<h1>Sorry, there is no such page.</h1>
+
+
+=====================================
+xml/lang/en/page/main/index/index.xml
+
+/head/title
+Index page.
+
+
+=====================================
+xml/lang/en/page/main/index/model.xml
+
+/head/title
+Model page.
+
+/body/ui/archives
+Other archives
+
+/body/edit/enter
+<span style="color:green;">Enter</span> edit mode
+
+/body/edit/exit
+<span style="color:red;">Exit</span> edit mode
+
+/body/edit/denied
+You don't have permission for editing this page!
+
+/body/edit/denied/reason
+Because of: %s.
+
+/body/edit/save_btn
+Save
+
+/body/edit/saved
+Saved.
+
+/body/edit/deleted
+Deleted.
+
+/body/edit/not_saved
+Not saved!
+
+/body/edit/not_deleted
+Not deleted!
+
+/body/empty_block/sg
+There is no
+
+/body/empty_block/pl
+There are no
+
+/body/news/head
+Events
+
+/body/news/add
+Add event
+
+/body/news/edit
+Edit event
+
+/body/news/delete
+Delete event
+
+/body/news/delete/confirm
+Do you really want to delete this event?
+
+/body/news/manager/form/date
+Date
+
+/body/news/manager/form/date/calendar/btn
+Calendar
+
+/body/news/manager/form/date/calendar/today
+Today
+
+/body/news/manager/form/image
+Image
+
+/body/news/manager/form/image/browse
+Browse image
+
+/body/news/manager/form/title
+Title
+
+/body/news/manager/form/source
+Source
+
+/body/news/manager/form/source_href
+Source hyperlink
+
+/body/news/manager/form/body
+Body
+
+/body/news/archive
+Events archive
+
+/body/news/extended/filter
+Filter
+
+/body/news/extended/filter/none
+All, in order of adding
+
+/body/news/extended/filter/show_all
+Show all
+
+/body/photos/head
+Photos
+
+/body/photos/add
+Add photo
+
+/body/photos/edit
+Edit photo
+
+/body/photos/delete
+Delete photo
+
+/body/photos/delete/confirm
+Do you really want to delete this photo?
+
+/body/photos/manager/form/src
+Image
+
+/body/photos/manager/form/src/browse
+Browse image
+
+/body/photos/manager/form/title
+Title
+
+/body/photos/manager/form/desc
+Description
+
+/body/photos/archive
+Photos archive
+
+/body/people/head
+Famous people
+
+/body/people/add
+Add famous one
+
+/body/people/edit
+Edit famous one
+
+/body/people/delete
+Delete famous one
+
+/body/people/delete/confirm
+Do you really want to delete famous one?
+
+/body/people/manager/form/img
+Image
+
+/body/people/manager/form/img/browse
+Browse image
+
+/body/people/manager/form/name
+Name
+
+/body/people/manager/form/sphere
+Sphere
+
+/body/people/manager/form/desc
+Description
+
+/body/people/archive
+Famous people archive
+
+/body/people/spheres/sphere
+None
+
+/body/people/spheres/sphere
+Film star
+
+/body/people/spheres/sphere
+Music star
+
+/body/tech_info/head
+Technical info
+
+/body/tech_info/bodystyle
+Body style
+
+/body/tech_info/production
+Production
+
+/body/tech_info/engine
+Engine
+
+/body/tech_info/transmission
+Transmission
+
+/body/tech_info/drivetrain
+Drivetrain
+
+/body/tech_info/power
+Power
+
+/body/tech_info/power/unit
+hp
+
+/body/tech_info/maxspeed
+Maximum speed
+
+/body/tech_info/maxspeed/unit
+km/h
+
+/body/tech_info/acceleration
+Acceleration 0-100 (0-60)
+
+/body/tech_info/acceleration/unit
+s
+
+/body/tech_info/weight
+Curb weight
+
+/body/tech_info/length
+Overall length
+
+/body/tech_info/fueleconomy
+Fuel economy
+
+/body/tech_info/co2
+CO<sub>2</sub> emission
+
+/body/history/head
+History
+
+/body/owner_info/head
+Owner info
+
+/body/conversation/head
+Conversation
+
+/body/conversation/add
+Add your thought
+
+/body/conversation/edit
+Edit your thought
+
+/body/conversation/delete
+Delete your thought
+
+/body/conversation/delete/confirm
+Do you really want to delete your thought?
+
+/body/conversation/manager/form/title
+Title
+
+/body/conversation/manager/form/desc
+Description
+
+/body/conversation/archive
+Conversation archive
+
+/body/conversation/user
+User
+
+/body/conversation/mts
+Modified
+
+/body/conversation/must_login
+You must be logged in to join conversation.
+
+/body/ad/head
+Advertisement
+
+/body/calendar/head
+Calendar
+
+
+===================================
+xml/lang/en/page/main/index/pay.xml
+
+/head/title
+Paypal page.
+
+/body/btn
+Get it now
+
+/body/add_links
+Additional links
+
+/body/no_promo_at_this_time
+There is no promotion at this time.
+
+/body/result/success
+Thank you, %s, for your payment.
+
+/body/result/success/completed
+Congratulations, you have your own %s now.<br/>
+				<div style="margin-top:10px;"><a href="%s" class="typeB">Edit page now</a></div>
+				<div style="margin-top:10px;"><a href="%s" class="typeB">Get help about page editing</a></div>
+
+/body/result/success/completed/subject
+Transaction completed successfully.
+
+/body/result/success/completed/plain
+Congratulations, you have your own %s now.
+Type this into the browser's address bar to edit your page:
+%s
+Type this into the browser's address bar to get help about page editing:
+%s
+
+/body/result/success/pending
+Transaction was initiated, but is still pending.<br/>
+				Pending reason: %s.<br/>
+				After transaction completes you will be notified and automatically gain access to your page.<br/>
+				Before that time the page will be reserved by you.
+				<div class="secondary" style="margin-top:10px;">Time varies from 2 till 5 business days for different reasons.</div>
+
+/body/result/success/pending/subject
+Transaction is pending.
+
+/body/result/success/pending/plain
+Transaction was initiated, but is still pending.
+Pending reason: %s.
+After transaction completes you will be notified and automatically gain access to your page.
+Before that time the page will be reserved by you.
+Time varies from 2 till 5 business days for different reasons.
+
+/body/result/failure
+Sorry, %s, but your payment has failed.
+
+/body/result/failure/subject
+Transaction has failed.
+
+/body/result/failure/xhtml
+The reason of operation failure is: %s.<br/>
+				Contact us for additional information:
+				<div style="margin-top:10px;"><a href="mailto:%s" class="typeB">%s</a></div>
+
+/body/result/failure/plain
+The reason of operation failure is: %s.
+Contact us for additional information:
+%s
+
+/body/already_have
+You can have one page per account
+
+/body/already_have/tip
+Nevertheless, if you want to obtain one more page, you can create additional account.
+
+/body/ready
+Are you ready to get one?
+
+/body/ready/item_name
+'s page
+
+/body/ready/amount
+Amount
+
+/body/ready/amount/promo
+Amount of money, you think it costs
+
+/body/ready/selects/companies
+Select company first
+
+/body/ready/selects/models
+Select model then
+
+/body/ready/selects/models/tip
+Disabled models are already reserved.
+
+/body/ready/selects/models/resrvd
+Reserved
+
+/body/ready/order_model
+Order model
+
+/body/ready/order_model/question
+Can't find model you are interested in?
+
+/body/ready/order_model/tip
+First of all you must select company and specify official model name.<br/>
+				You can then, optionally, provide parameters specific to your own car.<br/>
+				We'll validate that information for authenticity and let you know (via email) in 1-2 business days.
+
+/body/ready/order_model/company
+Select company
+
+/body/ready/order_model/model
+Enter model name
+
+/body/ready/order_model/btn/send
+Send request
+
+/body/ready/order_model/btn/close
+Close window
+
+/body/steps
+Several steps you need to do to get your own page!
+
+/body/steps/step
+First of all (if you haven't already) you need to sign in.<br/>
+			<div class="secondary">Doing so you will also get access to comunication's part of the website.</div>
+			Otherwise you need to log in.
+
+/body/steps/step
+Step #2 consists in activating your account.<br/>
+			The letter with necessary link will arrived to e-mail provided by you.
+
+/body/steps/step
+After all previous steps are completed,<br/>
+			come back here at this page and click 'Pay' button.
+
+
+====================================
+xml/lang/en/page/main/index/user.xml
+
+/head/title
+User page.
+
+/body/ui/panel
+Control panel
+
+/body/ui/edit_page_btn
+Edit page
+
+/body/ui/acp_btn
+Control panel
+
+
+===================
+xml/lang/en/rss.xml
+
+/model_feed
+%s's feed
+
+/feeds
+Rss feeds
+
+/feeds/editor/title
+Mylifecar.com editor's feed
+
+/feeds/editor/desc
+Latest news, events, announcements on mylifecar.com
+
+/feeds/companies/title
+Companies' list on mylifecar.com
+
+/feeds/companies/desc
+All time updating list of automobile companies on mylifecar.com
+
+/add_feeds/model/title
+%s on mylifecar.com feed
+
+/add_feeds/model/desc
+All time updating events, comments, photos etc. for %s on mylifecar.com
+
+
+========================
+xml/lang/en/site.map.xml
+
+/pages
+Pages
+
+/companies
+Companies
+
+
+====================
+xml/lang/en/user.xml
+
+/ui/no_company_models
+There are no models for %s
+
+/contact_us/subject
+Subject
+
+/contact_us/message
+Message
+
+/contact_us/btn
+Send
+
+/contact_us/btn/close
+Close
+
+/contact_us/report/success
+Message was sent
+
+/contact_us/report/failure
+Message wasn't sent
+
+/signin/after_benefits
+After the completion your acount registration (else activation needed),<br/>
+		you will have possibility to provide more information about yourself (i.e. image, description).<br/>
+		Just click 'Edit data' in the right top corner of the screen after logging in.<br/>
+		And, of course if you want you will have opportunity to obtain the 'Car of your life' page.
+
+/activate/msg/subject
+Activation on website %s
+
+/activate/msg/xhtml
+<h1 style="font-family:'Trebuchet MS', sans-serif; font-size:20px; color:red; padding:0; margin:20px;">Greetings, %s.</h1>
+				Thank you for registering on the website <a href="http://%s" style="font-weight:bold; color:red; text-decoration:underline;">%s</a>.<br/>
+				If you didn't register, just delete this letter.<br/>
+				Otherwise click link below.
+
+/activate/msg/plain
+Greetings, %s.
+Thank you for registering on the website %s.
+If you didn't register, just delete this letter.
+Otherwise enter link below into the browser's address bar.
+%s
+
+/activate/msg/complete/subject
+Activation completed. %s
+
+/activate/msg/complete/xhtml
+<h1 style="font-family:'Trebuchet MS', sans-serif; font-size:20px; color:red; padding:0; margin:20px;">%s, you are now activated on the website %s.</h1>
+					Now you can log in and use benefits of registered user.<br/>
+
+/activate/msg/complete/plain
+%s, you are now activated on the website %s.
+Now you can log in and use benefits of registered user.
+
+
+=============================
+xml/lang/en/welcomeWindow.xml
+
+/dont_show
+Don't show this window any more

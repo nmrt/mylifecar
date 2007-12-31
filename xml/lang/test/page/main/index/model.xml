@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<head>
+		<title><![CDATA[Model page.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+
+	<body>
+		
+		<ui>
+			<archives><![CDATA[Other archives]]></archives>
+		</ui>
+		
+		<edit>
+			<enter><![CDATA[<span style="color:green;">Enter</span> edit mode]]></enter>
+			<exit><![CDATA[<span style="color:red;">Exit</span> edit mode]]></exit>
+			<denied><![CDATA[You don't have permission for editing this page!]]>
+				<reason><![CDATA[Because of: %s.]]></reason>
+			</denied>
+			<save_btn><![CDATA[Save]]></save_btn>
+			<saved><![CDATA[Saved.]]></saved>
+			<deleted><![CDATA[Deleted.]]></deleted>
+			<not_saved><![CDATA[Not saved!]]></not_saved>
+			<not_deleted><![CDATA[Not deleted!]]></not_deleted>
+		</edit>
+		
+		<empty_block>
+			<sg><![CDATA[There is no]]></sg>
+			<pl><![CDATA[There are no]]></pl>
+		</empty_block>
+		
+		<news>
+			<head><![CDATA[Events]]></head>
+			<add><![CDATA[Add event]]></add>
+			<edit><![CDATA[Edit event]]></edit>
+			<delete><![CDATA[Delete event]]>
+				<confirm><![CDATA[Do you really want to delete this event?]]></confirm>
+			</delete>
+			<manager>
+				<form>
+					<date><![CDATA[Date]]>
+						<calendar>
+							<btn><![CDATA[Calendar]]></btn>
+							<today><![CDATA[Today]]></today>
+						</calendar>
+					</date>
+					<image><![CDATA[Image]]>
+						<browse><![CDATA[Browse image]]></browse>
+					</image>
+					<title><![CDATA[Title]]></title>
+					<source><![CDATA[Source]]></source>
+					<source_href><![CDATA[Source hyperlink]]></source_href>
+					<body><![CDATA[Body]]></body>
+				</form>
+			</manager>
+			<archive><![CDATA[Events archive]]></archive>
+			<extended>
+				<filter><![CDATA[Filter]]>
+					<none><![CDATA[All, in order of adding]]></none>
+					<show_all><![CDATA[Show all]]></show_all>
+				</filter>
+			</extended>
+		</news>
+		
+		<photos>
+			<head><![CDATA[Photos]]></head>
+			<add><![CDATA[Add photo]]></add>
+			<edit><![CDATA[Edit photo]]></edit>
+			<delete><![CDATA[Delete photo]]>
+				<confirm><![CDATA[Do you really want to delete this photo?]]></confirm>
+			</delete>
+			<manager>
+				<form>
+					<src><![CDATA[Image]]>
+						<browse><![CDATA[Browse image]]></browse>
+					</src>
+					<title><![CDATA[Title]]></title>
+					<desc><![CDATA[Description]]></desc>
+				</form>
+			</manager>
+			<archive><![CDATA[Photos archive]]></archive>
+		</photos>
+		
+		<people>
+			<head><![CDATA[Famous people]]></head>
+			<add><![CDATA[Add famous person]]></add>
+			<edit><![CDATA[Edit famous person]]></edit>
+			<delete><![CDATA[Delete famous person]]>
+				<confirm><![CDATA[Do you really want to delete famous person?]]></confirm>
+			</delete>
+			<manager>
+				<form>
+					<img><![CDATA[Image]]>
+						<browse><![CDATA[Browse image]]></browse>
+					</img>
+					<name><![CDATA[Name]]></name>
+					<sphere><![CDATA[Sphere]]></sphere>
+					<desc><![CDATA[Description]]></desc>
+				</form>
+			</manager>
+			<archive><![CDATA[Famous people archive]]></archive>
+			<spheres>
+				<sphere><![CDATA[None]]></sphere>
+				<sphere><![CDATA[Film star]]></sphere>
+				<sphere><![CDATA[Music star]]></sphere>
+			</spheres>
+		</people>
+		
+		<tech_info>
+			
+			<head><![CDATA[Technical info]]></head>
+			
+			<units_system_select><![CDATA[System of units]]>
+				<met><![CDATA[Metric system]]></met>
+				<imp><![CDATA[Imperial units]]></imp>
+				<both><![CDATA[Both of them]]></both>
+			</units_system_select>
+			
+			<company><![CDATA[Company]]></company>
+			<realname><![CDATA[Model]]></realname>
+			<bodystyle><![CDATA[Body style]]></bodystyle>
+			<production><![CDATA[Year of production]]></production>
+			<engine><![CDATA[Engine]]></engine>
+			<transmission><![CDATA[Transmission]]></transmission>
+			<drivetrain><![CDATA[Drivetrain]]></drivetrain>
+			
+			<power><![CDATA[Power]]>
+				<unit>
+					<met><![CDATA[hp]]></met>
+					<imp><![CDATA[hp]]></imp>
+				</unit>
+			</power>
+			
+			<maxspeed><![CDATA[Maximum speed]]>
+				<unit>
+					<met><![CDATA[km/h]]></met>
+					<imp><![CDATA[mph]]></imp>
+				</unit>
+			</maxspeed>
+			
+			<acceleration><![CDATA[Acceleration]]>
+				<unit>
+					<met><![CDATA[s (0-100km/h)]]></met>
+					<imp><![CDATA[s (0-60mph)]]></imp>
+				</unit>
+			</acceleration>
+			
+			<weight><![CDATA[Curb weight]]>
+				<unit>
+					<met><![CDATA[kg]]></met>
+					<imp><![CDATA[lb]]></imp>
+				</unit>
+			</weight>
+			
+			<length><![CDATA[Overall length]]>
+				<unit>
+					<met><![CDATA[mm]]></met>
+					<imp><![CDATA[in]]></imp>
+				</unit>
+			</length>
+			
+			<fueleconomy><![CDATA[Fuel economy]]>
+				<unit>
+					<met><![CDATA[L]]></met>
+					<imp><![CDATA[gal]]></imp>
+				</unit>
+			</fueleconomy>
+			
+			<co2><![CDATA[CO<sub>2</sub> emission]]>
+				<unit>
+					<met><![CDATA[g/km]]></met>
+					<imp><![CDATA[g/km]]></imp>
+				</unit>
+			</co2>
+			
+		</tech_info>
+		
+		<history>
+			<head><![CDATA[History]]></head>
+		</history>
+		
+		<editors_column>
+			<head><![CDATA[Editors' column]]></head>
+			<data_provided><![CDATA[data provided by editors]]></data_provided>
+		</editors_column>
+		
+		<owner_info>
+			<head><![CDATA[Owner info]]></head>
+			<reserved><![CDATA[For now it's reserved only.]]></reserved>
+		</owner_info>
+		
+		<conversation>
+			<head><![CDATA[Conversation]]></head>
+			<add><![CDATA[Add your thought]]></add>
+			<edit><![CDATA[Edit your thought]]></edit>
+			<delete><![CDATA[Delete your thought]]>
+				<confirm><![CDATA[Do you really want to delete your thought?]]></confirm>
+			</delete>
+			<manager>
+				<form>
+					<title><![CDATA[Title]]></title>
+					<desc><![CDATA[Description]]></desc>
+				</form>
+			</manager>
+			<archive><![CDATA[Conversation archive]]></archive>
+			<user><![CDATA[User]]></user>
+			<mts><![CDATA[Modified]]></mts>
+			<must_login><![CDATA[You must be logged in to join conversation.]]></must_login>
+		</conversation>
+		
+		<ad>
+			<head><![CDATA[Advertisement]]></head>
+		</ad>
+		
+		<calendar>
+			<head><![CDATA[Calendar]]></head>
+		</calendar>
+		
+	</body>
+
+</root>
+
