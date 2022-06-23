@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*#cmdTabbedPanel .TabbedPanels { width: auto; }*/
+#cmdTabbedPanel .TabbedPanelsTabGroup
+{
+	/*float: right;*/
+	background-color: #fff;
+	border: none;
+	height: auto;
+}
+#cmdTabbedPanel .TabbedPanelsTab
+{
+	top: 0;
+	/*border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-bottom: none;
+	border-left: solid 1px #999;*/
+	border: none;
+	background-color: #ccc;
+}
+#cmdTabbedPanel .TabbedPanelsTabSelected,
+#cmdTabbedPanel .TabbedPanelsTabHover { background-color: #F2F2F2; }
+/*#cmdTabbedPanel .TabbedPanelsTabSelected.TabbedPanelsTabHover { background-color: #FCFCFC; }*/
+#cmdTabbedPanel .TabbedPanelsContentGroup
+{
+	width: auto;
+	height: auto;
+	background-color: #F2F2F2;
+	border: none;
+}
+

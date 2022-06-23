@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<head>
+<title><![CDATA[@mylifecar.com]]></title>
+<description><![CDATA[ ]]></description>
+</head>
+
+<body>
+	
+	<head>
+		<title><![CDATA[
+		<span
+		style="color:#eee;">my</span><span
+		style="color:red;">life</span><span
+		style="color:#eee;">car</span><span
+		style="color:#ccc; font-size:50%;">.com</span>
+		]]></title>
+		<slogan><![CDATA[
+		<div
+			style=
+			"
+				margin: 0 0 4px 50px;
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 9px;
+				font-weight: bold;
+				color: #ccc;
+				line-height: 4px;
+				white-space: nowrap;
+			"
+		>The community of car lovers.</div>
+		]]></slogan>
+		<under_construction>Under construction. %d day(s) remain(s).</under_construction>
+		<current_arrow><![CDATA[Current page]]></current_arrow>
+	</head>
+	
+	<foot>
+		<show_welcome_window><![CDATA[Show welcome window]]></show_welcome_window>
+		<contact_us><![CDATA[Contact us]]></contact_us>
+	</foot>
+	
+	<alerts>
+		<access_denied><![CDATA[Access denied!]]></access_denied>
+		<admins_only><![CDATA[Administrators only!]]></admins_only>
+		
+		<img_save>
+			<failure><![CDATA[Failure occurred!]]>
+				<tip><![CDATA[Please, try again.]]></tip>
+			</failure>
+			<too_big><![CDATA[Image is too big, even for resampling.]]>
+				<tip><![CDATA[Reduce image size and/or resolution and try again.]]></tip>
+			</too_big>
+		</img_save>
+		
+	</alerts>
+	
+	<path>
+		<index><![CDATA[All companies]]></index>
+	</path>
+	
+	<data_block>
+		<view_status>
+			<collapsed><![CDATA[collapsed]]></collapsed>
+			<expanded><![CDATA[expanded]]></expanded>
+		</view_status>
+		<click_to_expand><![CDATA[Click to expand]]></click_to_expand>
+		<click_to_collapse><![CDATA[Click to collapse]]></click_to_collapse>
+	</data_block>
+	
+	<model>
+		<free><![CDATA[free]]></free>
+		<reserved><![CDATA[rsrv]]>
+			<full><![CDATA[reserved]]></full>
+		</reserved>
+	</model>
+	
+	<ui>
+		<loading><![CDATA[Loading]]></loading>
+	</ui>
+	
+	<action100>
+	<![CDATA[
+	First <span style="font-size:x-large; font-weight:bold;">%s</span> (%s left) 'Car of your life' page buyers<br/>
+	determine the price by themselves.
+	]]>
+		
+		<promotion><![CDATA[Promotion!]]></promotion>
+		<btn><![CDATA[Take a chance]]></btn>
+		
+		<add id="nLargestPrices"><![CDATA[
+		<span style="font-size:large; font-weight:bold;">%s</span> highest offered prices will be rewarded.
+		]]></add>
+		
+	</action100>
+	
+</body>
+
+</root>

@@ -1,0 +1,5 @@
+server=localhost
+user=namart
+passwd=n06a01m1987
+maildb=mylifecarcom_mailc
+usersdb=mylifecarcom_mailcusers

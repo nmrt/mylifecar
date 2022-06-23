@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<head>
+		<title><![CDATA[Страница пользователя.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+	
+	<body>
+		<ui>
+			<panel><![CDATA[Контрольная панель]]></panel>
+			<edit_page_btn><![CDATA[Редактировать страницу]]></edit_page_btn>
+			<acp_btn><![CDATA[Контрольная панель]]></acp_btn>
+		</ui>
+	</body>
+	
+</root>

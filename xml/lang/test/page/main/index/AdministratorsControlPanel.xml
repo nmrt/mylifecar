@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<head>
+		<title><![CDATA[Administrators' control panel.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+	
+	<body>
+		
+		<buttons>
+			<add><![CDATA[Add]]></add>
+			<edit><![CDATA[Edit]]></edit>
+			<delete><![CDATA[Delete]]>
+				<confirm>
+					<company><![CDATA[Do you really want to delete company with id: %s?]]></company>
+					<model><![CDATA[Do you really want to delete model with id: %s?]]></model>
+					<user><![CDATA[Do you really want to delete user with id: %s?]]></user>
+					<rss_item><![CDATA[Do you really want to delete rss item with id: %s?]]></rss_item>
+					<ordered_model><![CDATA[Do you really want to delete ordered model with id: %s?]]></ordered_model>
+				</confirm>
+			</delete>
+			<company><![CDATA[Company]]></company>
+			<companies><![CDATA[Companies]]></companies>
+			<model><![CDATA[Model]]></model>
+			<models><![CDATA[Models]]></models>
+			<users><![CDATA[Users]]></users>
+			<rss><![CDATA[Rss]]></rss>
+			<rss_item><![CDATA[Rss item]]></rss_item>
+			<ordered_models><![CDATA[Ordered models]]></ordered_models>
+			<ordered_model><![CDATA[Ordered model]]>
+				<accept><![CDATA[Accept]]>
+					<confirm><![CDATA[Do you really want to accept model order with id: %s?]]></confirm>
+				</accept>
+				<decline><![CDATA[Decline]]>
+					<confirm><![CDATA[Do you really want to decline model order with id: %s?]]></confirm>
+				</decline>
+			</ordered_model>
+		</buttons>
+		
+		<alerts>
+			<saved><![CDATA[Saved.]]></saved>
+			<deleted><![CDATA[Deleted.]]></deleted>
+			<not_saved><![CDATA[Not saved!]]></not_saved>
+			<not_deleted><![CDATA[Not deleted!]]></not_deleted>
+		</alerts>
+		
+		<form>
+			<desc><![CDATA[Description]]></desc>
+		</form>
+		
+		<model_order>
+			<status>
+				<s0><![CDATA[Waiting]]></s0>
+				<s1><![CDATA[Accepted]]></s1>
+				<s2><![CDATA[Declined]]></s2>
+			</status>
+			<reports>
+				<timer><![CDATA[sec till update]]>
+					<cancel><![CDATA[Cancel]]></cancel>
+				</timer>
+				<accept>
+					<success><![CDATA[Model order has been successfully accepted.]]></success>
+					<failure><![CDATA[Model order hasn't been accepted.]]></failure>
+				</accept>
+				<decline>
+					<success><![CDATA[Model order has been successfully declined.]]></success>
+					<failure><![CDATA[Model order hasn't been declined.]]></failure>
+				</decline>
+			</reports>
+			<msg>
+				<accept>
+					<subject><![CDATA[Model order has been accepted]]></subject>
+					<xhtml><![CDATA[
+					<div style="font-size:20px; font-weight:bold; color:red;">Congratulations, %s, your '%s' model-page order has been accepted.</div>
+					The page is now reserved by you.<br/>
+					You need to pay for it to get access for editing.<br/>
+					Simple click the hyperlink listed below to continue.<br/>
+					<a href="%s" style="font-weight:bold; color:red;">Continue</a><br/>
+					(it could be that you’ll need to log in to continue)
+					]]></xhtml>
+					<plain><![CDATA[
+Congratulations, %s, your '%s' model-page order has been accepted.
+The page is now reserved by you.
+You need to pay for it to get access for editing.
+Simple copy and paste the hyperlink listed below into the browser's address bar to continue.
+%s
+(it could be that you’ll need to log in to continue)
+]]></plain>
+				</accept>
+				<decline>
+					<subject><![CDATA[Model order has been declined]]></subject>
+					<xhtml><![CDATA[
+					<div style="font-size:20px; font-weight:bold; color:red;">Sorry, %s, bu your '%s' model-page order has been declined.</div>
+					Possible reason may be not valid data, provided by you.<br/>
+					<a href="mailto:%s">Contact us</a> for additional information.<br/>
+					]]></xhtml>
+					<plain><![CDATA[
+Sorry, %s, bu your '%s' model-page order has been declined.
+Possible reason may be not valid data, provided by you.
+Contact us (%s) for additional information.
+]]></plain>
+				</decline>
+			</msg>
+		</model_order>
+		
+	</body>
+	
+</root>

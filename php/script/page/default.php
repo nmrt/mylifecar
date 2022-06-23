@@ -1,0 +1,1 @@
+<?php echo $Vars->page['body']['text'][0] ?>

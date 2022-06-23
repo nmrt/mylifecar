@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /mail/
+Disallow: /php/
+Disallow: /rss/
+Disallow: /tmp/
+Disallow: /xml/
+Disallow: /css.txt
+Disallow: /js.txt
+Disallow: /webmaster.txt

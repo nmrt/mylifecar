@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.action,
+.panel
+{
+	padding:		0 10px;
+}
+
+.panel,
+.panel .links
+{
+	margin:			6px 0;
+}
+.panel .links td
+{
+	font-family:	Verdana, Arial, Helvetica, sans-serif;
+	font-size:		12px;
+	padding:		2px;
+}
+
+form,
+form td
+{
+	font-family:	Verdana, Arial, Helvetica, sans-serif;
+	font-size:		12px;
+}
+
+.success { color:	green; }
+.error { color:		red; }
+
+.userImage td { padding: 0 6px 0 0; }

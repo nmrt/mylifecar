@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<model_feed><![CDATA[%s Канал]]></model_feed>
+	
+	<feeds><![CDATA[RSS каналы]]>
+		
+		<editor>
+			<title><![CDATA[Канал редактора mylifecar.com]]></title>
+			<desc><![CDATA[Последние новости, события, сообщения на mylifecar.com]]></desc>
+			<link><![CDATA[]]></link>
+		</editor>
+		
+		<companies>
+			<title><![CDATA[Список компаний на mylifecar.com]]></title>
+			<desc><![CDATA[Постоянно обновляющийся список автомобильных компаний на mylifecar.com]]></desc>
+			<link><![CDATA[]]></link>
+		</companies>
+		
+	</feeds>
+	
+	<add_feeds>
+		
+		<model>
+			<title><![CDATA[%s Канал на mylifecar.com]]></title>
+			<desc><![CDATA[Постоянно обновляющиеся события, комментарии, фотографии и т.д. для %s на mylifecar.com]]></desc>
+			<link><![CDATA[]]></link>
+		</model>
+		
+	</add_feeds>
+	
+</root>

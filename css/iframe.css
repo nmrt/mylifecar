@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+html { overflow: auto; }
+html, body { height: auto; background-color: #fff; }
+body
+{
+	margin: 10px;
+	display: block;
+	background-image: none;
+}
+body, td
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+

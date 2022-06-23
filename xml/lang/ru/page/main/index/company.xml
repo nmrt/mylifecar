@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<head>
+		<title><![CDATA[Страница компании.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+	
+	<body>
+		
+		<info>
+			
+			<head><![CDATA[Информация о компании]]></head>
+			
+			<founded><![CDATA[Основана]]>
+				<date><![CDATA[Дата]]></date>
+				<person><![CDATA[Личность]]></person>
+			</founded>
+			
+			<headquarters><![CDATA[Центральный орган]]>
+				<country><![CDATA[Страна]]></country>
+				<province><![CDATA[Провинция]]></province>
+				<city><![CDATA[Город]]></city>
+			</headquarters>
+			
+			<keypeople><![CDATA[Ключевые люди]]></keypeople>
+			<website><![CDATA[Сайт]]></website>
+			
+		</info>
+		
+		<models>
+			<head><![CDATA[Модели компании]]></head>
+			<name><![CDATA[Название]]></name>
+			<year><![CDATA[Год]]></year>
+			<owner><![CDATA[Владелец]]></owner>
+		</models>
+		
+		<other_companies>
+			<head><![CDATA[Другие компании]]></head>
+		</other_companies>
+		
+	</body>
+	
+</root>

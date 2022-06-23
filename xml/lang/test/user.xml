@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<ui>
+		<no_company_models><![CDATA[There are no models for %s]]></no_company_models>
+		<forgot_nickname_password><![CDATA[Forgot nickname or password?]]></forgot_nickname_password>
+		<img>
+			<enlarged><![CDATA[Enlarged]]></enlarged>
+			<reduced><![CDATA[Reduced]]></reduced>
+		</img>
+	</ui>
+	
+	<contact_us>
+		<subject><![CDATA[Subject]]></subject>
+		<message><![CDATA[Message]]></message>
+		<btn><![CDATA[Send]]>
+			<close><![CDATA[Close]]></close>
+		</btn>
+		<report>
+			<success><![CDATA[Message was sent]]></success>
+			<failure><![CDATA[Message wasn't sent]]></failure>
+		</report>
+	</contact_us>
+	
+	<signin>
+		<after_benefits><![CDATA[
+		After the completion of your account registration (activation is obligatory),<br/>
+		you will have possibility to provide more information about yourself (i.e. image, description).<br/>
+		Just click 'Edit data' in the right top corner of the screen after logging in.<br/>
+		Also you will have opportunity to obtain the 'Car of your life' page.
+		]]></after_benefits>
+	</signin>
+	
+	<activate>
+		
+		<msg>
+			
+			<subject><![CDATA[Activation on website %s]]></subject>
+			<xhtml><![CDATA[
+				<h1 style="font-family:'Trebuchet MS', sans-serif; font-size:20px; color:red; padding:0; margin:20px;">Greetings, %s.</h1>
+				Thank you for registering on website <a href="http://%s" style="font-weight:bold; color:red; text-decoration:underline;">%s</a>.<br/>
+				If you didn't register, just delete this letter.<br/>
+				Otherwise click link below.
+			]]></xhtml>
+			<plain><![CDATA[
+Greetings, %s.
+Thank you for registering on website %s.
+If you didn't register, just delete this letter.
+Otherwise enter link below into the browser's address bar.
+%s]]></plain>
+			
+			<complete>
+				<subject><![CDATA[Activation is completed. %s]]></subject>
+				<xhtml><![CDATA[
+					<h1 style="font-family:'Trebuchet MS', sans-serif; font-size:20px; color:red; padding:0; margin:20px;">%s, you are now activated on website %s.</h1>
+					You can log in and use benefits of registered user.<br/>
+					You may need to leave this letter for the future.<br/>
+					The account key following below you'll need if you will forget your nickname or password:<br/>
+					<div style="margin-top:20px;">
+					Nickname:    %s<br/>
+					Account key: %s
+					</div>
+				]]></xhtml>
+				<plain><![CDATA[
+%s, you are now activated on website %s.
+You can log in and use benefits of registered user.
+You may need to leave this letter for the future.
+The credentials listed below you'll need if you will forget your nickname or password:
+Nickname:    %s
+Account key: %s
+]]></plain>
+			</complete>
+			
+		</msg>
+		
+	</activate>
+	
+	<restore><![CDATA[Restore account]]>
+		
+		<tip><![CDATA[All you need to provide is account key.]]></tip>
+		<acckey><![CDATA[Account key]]></acckey>
+		<close_btn><![CDATA[Close window]]></close_btn>
+		
+		<alerts>
+			<sent><![CDATA[Message sent.]]></sent>
+			<failure><![CDATA[Failure occurred.]]></failure>
+			<no_key><![CDATA[There was no key provided.]]></no_key>
+			<not_exists><![CDATA[There is no account with specified key.]]></not_exists>
+			<not_sent><![CDATA[Message didn't send.]]></not_sent>
+		</alerts>
+		
+		<msg>
+			<subject><![CDATA[Account restoration. %s]]></subject>
+			<xhtml><![CDATA[
+			<h1 style="font-family:'Trebuchet MS'; font-size:20px; color:red; padding:0; margin:20px;">%s, your account has been successfully restored.</h1>
+			Note: you can change password after login,<br/>
+			just click 'Edit data' in the right top corner of screen,<br/>
+			enter your current (generated) password,<br/>
+			uncheck 'Don't change password' and type in the desired one (twice).
+			<div style="margin-top:20px;">
+			Nickname: %s<br/>
+			Password: %s<br/>
+			Account key: %s
+			</div>
+			]]></xhtml>
+			<plain><![CDATA[%s, your account has been successfully restored.
+Note: you can change password after login,
+just click 'Edit data' in the right top corner of screen,
+enter your current (generated) password,
+uncheck 'Don't change password' and type in the desired one (twice).
+
+Nickname: %s
+Password: %s
+Account key: %s
+			]]></plain>
+		</msg>
+		
+	</restore>
+	
+</root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<img>
+		<user_page><![CDATA[User's page]]></user_page>
+		<model_page><![CDATA[Model-page in edit mode]]></model_page>
+	</img>
+	
+	<text>
+		<start><![CDATA[
+		If you already have your own model-page, this is the topic you should start from.<br/>
+		Otherwise you need to perform several actions:
+		<ul>
+			<li>
+				<a href="/?page=user&amp;action=login.form">Log in</a> 
+				(if you are the community member) or 
+				<a href="/?page=user&amp;action=signin.form">sign in</a>.
+			</li>
+			<li>
+				<a href="/?page=pay">Pay for</a> 
+				the model-page you are dreaming of.
+			</li>
+		</ul>
+		]]></start>
+		<log_in><![CDATA[So you have it now, than log in (if you haven't yet) and click 'Edit page' hyperlink (it will be grey, if you are not the owner of any from our model-pages) in the right top corner of the browser's window:]]></log_in>
+		<blank_page><![CDATA[
+<p>After a while you'll see your own page like blank canvas that needs to be filled up with thoughts, photos, events, history &mdash; anything that applies to your car.</p>
+<p>You can't edit all the blocks, some of them are under control of the website's administrators.</p>
+<p>Even those you have access to may be modificated by our administrators if needed.</p>
+<p>What about the conversation (comments): you can leave your thoughts, like any other registered and logged in user, but you can’t edit or delete them,- it's prerogative of the administrators.</p>
+<p>Let's add an event (for example) now to see how it works.</p>
+<p>Just click the 'Add event' button and you'll see window with form, it doesn’t matter which and how many fields it consists of, you need to fill in as much as you want or the form requires.</p>
+<p>Sometimes you have the ability to provide an image for the particular element.</p>
+<p>There is another element we need to look at.</p>
+<p>WYSIWYG (What You See Is What You Get) menu, that grants us advanced editing possibilities: just like in word-editor you can make your text bold, italic, underlined and so on, undo and/or redo up to 20 last operations.</p>
+<p>Any of the points listed above are intuitively and easy.</p>
+<p>So let's better take a closer look at the bottom part (line) of the menu.</p>
+<p>'My Undo' and 'My Redo' buttons could be used to walk through the history, the difference between them and the upper 'Undo' and 'Redo' consists in the following: the upper buttons have effect on changes made by the upper line of menu and the bottom buttons, accordingly, have an influence on the changes made by the bottom part of the menu. So, don't mix them up.</p>
+<p>To make the hyperlink select text you want and click the 
+<img src="http://sichnevyj.com/img/Selection.menu/grayscale/a.png" alt="Hyperlink button" align="top" border="0" />
+ button, click it once more when the cursor is inside the link to remove it (text will remain).</p>
+<p>Click 
+<img src="http://sichnevyj.com/img/Selection.menu/grayscale/img.png" alt="Image button" align="top" border="0" />
+ button to insert an image, in the appeared window you can type in URL of desired image or click 'Browse' button to select an image from your own directory. Select and press Delete to remove unwanted image.</p>
+<p>If you want to insert a table into your text, just click 
+<img src="http://sichnevyj.com/img/Selection.menu/grayscale/table.png" alt="Table button" align="top" border="0" />
+ button.</p>
+<p>Select format to wrap plain text with Paragraph or Heading. Placing the cursor inside the formatted text will change Format Select into appropriated format. Select Format back to remove format, while remaining text itself.</p>
+<p>Click on hyperlink, image or inside a table while holding Ctrl button to edit specified element's parameters.</p>
+<p>When all is done click the submit button (or press Enter) and watch the magic of Ajax (combined with php), so simple and pleasantly, the page itself doesn't even reload!</p>
+		]]></blank_page>
+	</text>
+	
+</root>

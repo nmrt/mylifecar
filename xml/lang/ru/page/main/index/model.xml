@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<head>
+		<title><![CDATA[Страница модели.]]></title>
+		<description><![CDATA[ ]]></description>
+	</head>
+
+	<body>
+		
+		<ui>
+			<archives><![CDATA[Другие архивы]]></archives>
+		</ui>
+		
+		<edit>
+			<enter><![CDATA[<span style="color:green;">Войти</span> в режим редактирования]]></enter>
+			<exit><![CDATA[<span style="color:red;">Выйти</span> из режима редактирования]]></exit>
+			<denied><![CDATA[У вас нет прав редактировать эту страницу!]]>
+				<reason><![CDATA[Из-за: %s.]]></reason>
+			</denied>
+			<save_btn><![CDATA[Сохранить]]></save_btn>
+			<saved><![CDATA[Сохранено.]]></saved>
+			<deleted><![CDATA[Удалено.]]></deleted>
+			<not_saved><![CDATA[Не сохранено!]]></not_saved>
+			<not_deleted><![CDATA[Не удалено!]]></not_deleted>
+		</edit>
+		
+		<empty_block>
+			<sg><![CDATA[Отсутствует:]]></sg>
+			<pl><![CDATA[Отсутствуют:]]></pl>
+		</empty_block>
+		
+		<news>
+			<head><![CDATA[События]]></head>
+			<add><![CDATA[Добавить событие]]></add>
+			<edit><![CDATA[Редактировать событие]]></edit>
+			<delete><![CDATA[Удалить событие]]>
+				<confirm><![CDATA[Вы действительно хотите удалить это событие?]]></confirm>
+			</delete>
+			<manager>
+				<form>
+					<date><![CDATA[Дата]]>
+						<calendar>
+							<btn><![CDATA[Календарь]]></btn>
+							<today><![CDATA[Сегодня]]></today>
+						</calendar>
+					</date>
+					<image><![CDATA[Изображение]]>
+						<browse><![CDATA[Просмотреть изображения]]></browse>
+					</image>
+					<title><![CDATA[Заголовок]]></title>
+					<source><![CDATA[Источник]]></source>
+					<source_href><![CDATA[Гиперссылка источника]]></source_href>
+					<body><![CDATA[Тело]]></body>
+				</form>
+			</manager>
+			<archive><![CDATA[Архив событий]]></archive>
+			<extended>
+				<filter><![CDATA[Фильтр]]>
+					<none><![CDATA[Все, по очереди добавления]]></none>
+					<show_all><![CDATA[Показать все]]></show_all>
+				</filter>
+			</extended>
+		</news>
+		
+		<photos>
+			<head><![CDATA[Фотографии]]></head>
+			<add><![CDATA[Добавить фотографию]]></add>
+			<edit><![CDATA[Редактировать фотографию]]></edit>
+			<delete><![CDATA[Удалить фотографию]]>
+				<confirm><![CDATA[Вы действительно хотите удалить эту фотографию?]]></confirm>
+			</delete>
+			<manager>
+				<form>
+					<src><![CDATA[Изображение]]>
+						<browse><![CDATA[Просмотреть изображения]]></browse>
+					</src>
+					<title><![CDATA[Заголовок]]></title>
+					<desc><![CDATA[Описание]]></desc>
+				</form>
+			</manager>
+			<archive><![CDATA[Архив фотографий]]></archive>
+		</photos>
+		
+		<people>
+			<head><![CDATA[Известные люди]]></head>
+			<add><![CDATA[Добавить известного человека]]></add>
+			<edit><![CDATA[Редактировать известного человека]]></edit>
+			<delete><![CDATA[Удалить известного человека]]>
+				<confirm><![CDATA[Вы действительно хотите удалить этого известного человека?]]></confirm>
+			</delete>
+			<manager>
+				<form>
+					<img><![CDATA[Изображение]]>
+						<browse><![CDATA[Просмотреть изображения]]></browse>
+					</img>
+					<name><![CDATA[Имя]]></name>
+					<sphere><![CDATA[Сфера]]></sphere>
+					<desc><![CDATA[Описание]]></desc>
+				</form>
+			</manager>
+			<archive><![CDATA[Архив известных людей]]></archive>
+			<spheres>
+				<sphere><![CDATA[Никакая]]></sphere>
+				<sphere><![CDATA[Кинозвезда]]></sphere>
+				<sphere><![CDATA[Музыкальная звезда]]></sphere>
+			</spheres>
+		</people>
+		
+		<tech_info>
+			
+			<head><![CDATA[Тех. информация]]></head>
+			
+			<units_system_select><![CDATA[Система единиц]]>
+				<met><![CDATA[Метрическая система]]></met>
+				<imp><![CDATA[Имперские единицы]]></imp>
+				<both><![CDATA[Обе из них]]></both>
+			</units_system_select>
+			
+			<company><![CDATA[Компания]]></company>
+			<realname><![CDATA[Модель]]></realname>
+			<bodystyle><![CDATA[Форма кузова]]></bodystyle>
+			<production><![CDATA[Год выпуска]]></production>
+			<engine><![CDATA[Двигатель]]></engine>
+			<transmission><![CDATA[Коробка передач]]></transmission>
+			<drivetrain><![CDATA[Привод]]></drivetrain>
+			
+			<power><![CDATA[Мощность]]>
+				<unit>
+					<met><![CDATA[л.с.]]></met>
+					<imp><![CDATA[л.с.]]></imp>
+				</unit>
+			</power>
+			
+			<maxspeed><![CDATA[Максимальная скорость]]>
+				<unit>
+					<met><![CDATA[км/ч]]></met>
+					<imp><![CDATA[м/ч]]></imp>
+				</unit>
+			</maxspeed>
+			
+			<acceleration><![CDATA[Ускорение]]>
+				<unit>
+					<met><![CDATA[с (0-100км/ч)]]></met>
+					<imp><![CDATA[с (0-60м/ч)]]></imp>
+				</unit>
+			</acceleration>
+			
+			<weight><![CDATA[Собственный вес]]>
+				<unit>
+					<met><![CDATA[кг]]></met>
+					<imp><![CDATA[ф]]></imp>
+				</unit>
+			</weight>
+			
+			<length><![CDATA[Габаритная длина]]>
+				<unit>
+					<met><![CDATA[мм]]></met>
+					<imp><![CDATA[д]]></imp>
+				</unit>
+			</length>
+			
+			<fueleconomy><![CDATA[Расход топлива]]>
+				<unit>
+					<met><![CDATA[л]]></met>
+					<imp><![CDATA[гал]]></imp>
+				</unit>
+			</fueleconomy>
+			
+			<co2><![CDATA[Уровень выбросов CO<sub>2</sub>]]>
+				<unit>
+					<met><![CDATA[г/км]]></met>
+					<imp><![CDATA[г/км]]></imp>
+				</unit>
+			</co2>
+			
+		</tech_info>
+		
+		<history>
+			<head><![CDATA[История]]></head>
+		</history>
+		
+		<editors_column>
+			<head><![CDATA[Колонка редактора]]></head>
+			<data_provided><![CDATA[информация предоставленная редактором]]></data_provided>
+		</editors_column>
+		
+		<owner_info>
+			<head><![CDATA[Инфо. о владельце]]></head>
+			<reserved><![CDATA[Только зарегистрировано на сейчас.]]></reserved>
+		</owner_info>
+		
+		<conversation>
+			<head><![CDATA[Беседа]]></head>
+			<add><![CDATA[Добавьте вашу мысль]]></add>
+			<edit><![CDATA[Редактировать мысль]]></edit>
+			<delete><![CDATA[Удалить мысль]]>
+				<confirm><![CDATA[Вы действительно хотите удалить мысль?]]></confirm>
+			</delete>
+			<manager>
+				<form>
+					<title><![CDATA[Заголовок]]></title>
+					<desc><![CDATA[Описание]]></desc>
+				</form>
+			</manager>
+			<archive><![CDATA[Архив беседы]]></archive>
+			<user><![CDATA[Пользователь]]></user>
+			<mts><![CDATA[Изменено]]></mts>
+			<must_login><![CDATA[Вы должны войти, чтобы присоединиться к беседе.]]></must_login>
+		</conversation>
+		
+		<ad>
+			<head><![CDATA[Реклама]]></head>
+		</ad>
+		
+		<calendar>
+			<head><![CDATA[Календарь]]></head>
+		</calendar>
+		
+	</body>
+
+</root>
+

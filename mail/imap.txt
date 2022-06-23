@@ -1,0 +1,6 @@
+email=info@mylifecar.com
+server=mail.mylifecar.com
+user=info@mylifecar.com
+passwd=mylifecar.com
+answersdir=mail/answers
+createddir=mail/created
